@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/basicFragment">
+
+    <fragment
+        android:id="@+id/basicFragment"
+        android:name="com.example.learnkotlin.basic.BasicFragment"
+        android:label="fragment_basic"
+        tools:layout="@layout/fragment_basic" />
+    <fragment
+        android:id="@+id/advanceFragment"
+        android:name="com.example.learnkotlin.advance.AdvanceFragment"
+        android:label="fragment_advance"
+        tools:layout="@layout/fragment_advance" />
+    <fragment
+        android:id="@+id/androidFragment"
+        android:name="com.example.learnkotlin.android.AndroidFragment"
+        android:label="fragment_android"
+        tools:layout="@layout/fragment_android" />
+</navigation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="@string/basic"
+        android:id="@+id/basicFragment"
+        android:icon="@mipmap/kotlin"
+
+        />
+    <item android:title="@string/advance"
+        android:id="@+id/advanceFragment"
+        android:icon="@mipmap/kotlin"
+
+        />
+
+    <item
+        android:title="@string/android"
+        android:icon="@mipmap/android"
+        android:id="@+id/androidFragment"
+        />
+</menu>

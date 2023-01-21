@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">KotLin</string>
+    <string name="lest_starts_a_new_journey">Lest Starts A New Journey</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="variable">
+
+    </string>
+    <string name="advance_chapter">Advance-chapter</string>
+    <string name="item">Item</string>
+    <string name="android">ANDROID</string>
+    <string name="advance">ADVANCE</string>
+    <string name="basic">BASIC</string>
+
+
+    <string-array name="chapter_basic">
+        <item>VARIABLE</item>
+        <item>DATA-TYPE</item>
+        <item>TYPE-CONVERSION</item>
+        <item>OPERATOR</item>
+        <item>INPUT/OUTPUT</item>
+        <item>COMMENTS</item>
+        <item>EXPRESSION</item>
+        <item>FOR-LOOP</item>
+        <item>WHILE-LOOP</item>
+        <item>DO-WHILE-LOOP</item>
+        <item>FOR-EACH-LOOP</item>
+        <item>CONTINUE-STRUCTURE</item>
+        <item>BREAK-STRUCTURE</item>
+        <item>FUNCTION</item>
+        <item>RECURSION/TAIL-FUNCTION</item>
+        <item>DEFAULT-ARGUMENT</item>
+        <item>NAMED-ARGUMENT</item>
+        <item>LAMBDAS</item>
+        <item>HIGHER ORDER-FUNCTION</item>
+        <item>INLINE-FUNCTION</item>
+    </string-array>
+    <string-array name="chapter_advance">
+        <item>ARRAY</item>
+        <item>STRING-FUINCTION</item>
+        <item>EXCEPTION HANDLING</item>
+        <item>NULL SAFETY</item>
+        <item>SMART CAST</item>
+        <item>UNSAFE/SAFE-CAST</item>
+        <item>ELVIS OPERATOR</item>
+        <item>CLASS AND OBJECT</item>
+        <item>NESTED/INNER-CLASS</item>
+        <item>CONSTRUCTOR</item>
+        <item>VISIBILITY MODIFIER</item>
+        <item>INHERTIANCE</item>
+        <item>ABSTRACT-CLASS</item>
+        <item>INTERFACE</item>
+        <item>DATA-CLASS</item>
+        <item>SEALED-CLASS</item>
+        <item>EXTENSION-FUNCTION</item>
+        <item>GENERICES</item>
+        <item>RANGES</item>
+        <item>MUTABLE-ARRAY</item>
+        <item>COLLECTIONS</item>
+        <item>GETTER AND SETTER</item>
+        <item>UTILIOTY</item>
+        <item>LIST-INTERFACE</item>
+        <item>MUTABLE-LIST</item>
+        <item>ARRAYLIST:ARRAYLISTOF()</item>
+        <item>MAP-INTERFACE</item>
+        <item>HAS MAP</item>
+        <item>HASMAP:HASMAPOF()</item>
+        <item>MUTABLEMAP-INTERFACE</item>
+        <item>SET-INTERFACE</item>
+        <item>MUTABLESET-INTERFACE</item>
+        <item>HASSET-CLASS</item>
+    </string-array>
+
+
+</resources>

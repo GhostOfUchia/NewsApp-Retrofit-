@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".advance.AdvanceFragment">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="@string/advance_chapter"
+       android:paddingStart="30dp"
+       android:paddingEnd="30dp"
+       android:textStyle="bold"
+       android:textSize="30sp"
+       android:textColor="#464F53"
+       android:background="#66284653"
+      />
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/chapter_advance"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:itemCount="8"
+       tools:listitem="@layout/basic_cardview"
+       android:background="@mipmap/img"/>
+
+
+</LinearLayout>
