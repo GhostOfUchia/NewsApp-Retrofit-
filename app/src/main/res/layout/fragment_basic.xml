@@ -3,31 +3,22 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-tools:context=".basic.BasicFragment">
+tools:context=".basic.BasicFragment"
+    android:orientation="vertical">
 
-  <TextView
-      android:layout_width="match_parent"
-      android:layout_height="50dp"
-      android:background="#66284653"
-      android:paddingStart="50dp"
-      android:text="Basic"
-      android:textAlignment="center"
-      android:textColor="#464F53"
-      android:textSize="30sp"
-      android:textStyle="bold"
-
-      />
 
   <androidx.recyclerview.widget.RecyclerView
       android:id="@+id/chapter_basic"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      android:layout_marginTop="50dp"
-      android:background="@mipmap/img"
+      android:background="#B1ADAD"
       tools:itemCount="8"
       tools:listitem="@layout/basic_cardview" />
 
-  </FrameLayout>
+
+
+
+</FrameLayout>
 
 
 

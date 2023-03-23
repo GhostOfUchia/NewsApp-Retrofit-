@@ -6,12 +6,11 @@
     <item
         android:title="@string/basic"
         android:id="@+id/basicFragment"
-        android:icon="@mipmap/kotlin"
-
+        android:icon="@mipmap/img"
         />
     <item android:title="@string/advance"
         android:id="@+id/advanceFragment"
-        android:icon="@mipmap/kotlin"
+        android:icon="@mipmap/img"
 
         />
 

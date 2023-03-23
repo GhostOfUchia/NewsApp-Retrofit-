@@ -10,10 +10,10 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.learnkotlin.R
-import com.example.learnkotlin.modle.MyViewModle
+import com.example.learnkotlin.modle.MyViewModel
 
 class AdvanceFragment : Fragment() {
-    private lateinit var viewModel: MyViewModle
+    private lateinit var viewModel: MyViewModel
     private lateinit var adapter: AdvanceAdapter
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -22,7 +22,7 @@ class AdvanceFragment : Fragment() {
         val view = LayoutInflater.from(container?.context).inflate(
             R.layout.fragment_advance, container, false
         )
-        viewModel = ViewModelProvider(this).get(MyViewModle::class.java)
+        viewModel = ViewModelProvider(this).get(MyViewModel::class.java)
         val recyclerlist = view.findViewById<RecyclerView>(R.id.chapter_advance)
 
         adapter = AdvanceAdapter(listOf<String>())

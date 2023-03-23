@@ -20,7 +20,6 @@ class AdvanceAdapter(var chapter: List<String>) : RecyclerView.Adapter<AdvanceAd
 
 
     }
-
     override fun getItemCount(): Int {
         return chapter.size
     }

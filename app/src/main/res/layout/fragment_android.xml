@@ -5,25 +5,13 @@
     android:layout_height="match_parent"
     tools:context=".android.AndroidFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="ANDROID"
-        android:paddingStart="50dp"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:textColor="#464F53"
-        android:background="#66284653"
-        />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/android_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
         tools:itemCount="8"
         tools:listitem="@layout/basic_cardview"
-        android:background="@mipmap/img"/>
-
+        android:background="#B1ADAD"
+       />
 
 </FrameLayout>
